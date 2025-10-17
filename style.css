@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+ 
+}
+p{
+  color: dimgray;
+}
+/*navber style*/
+
+.navber{
+    display: flex;
+    align-items: center;
+
+}
+
+.list{
+  display: flex;
+  
+}
+
+li{
+  list-style: none;
+  justify-content: end;
+  align-items: stretch;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+   font-size: 40px;
+}
+.blue-highlight{
+    color: #411bfcf8;
+
+}
+.half-width{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+  width: 100%;
+}
+.top-banner{
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(93, 93, 250), rgb(6, 136, 4));
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: aqua;
+  font-weight: bold;
+}
+.next-part{
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.single-part{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 60%;
+  
+}
+.third-part{
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(red, orange);
+  border-image-slice: 1;
+}
+#mern-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, aqua);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+  font-size: 20px;
+}
